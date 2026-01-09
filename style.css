@@ -29,6 +29,11 @@ html {
   color: white;
   font-family: "Inter", sans-serif;
   border: none;
+  cursor: pointer;
+}
+
+.my-btn:hover {
+  background-color: #28a05a;
 }
 
 
@@ -141,6 +146,7 @@ header {
   border-radius: 6px;
   font-size: 16px;
   font-weight: 600;
+  font-family: inherit;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -152,6 +158,10 @@ header {
   font-size: 18px;
 }
 
+.buttons button:first-child:hover {
+  background-color: #28a05a;
+}
+
 .buttons button:last-child {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
@@ -160,6 +170,7 @@ header {
   border-radius: 6px;
   font-size: 16px;
   font-weight: 600;
+  font-family: inherit;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -169,4 +180,233 @@ header {
 .buttons button:last-child::before {
   content: '▶';
   font-size: 14px;
+}
+
+.buttons button:last-child:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+/* Notes section */
+.notes-section {
+  padding: 80px 0 120px 0;
+  background: white;
+}
+
+.notes-header {
+  text-align: center;
+  margin-bottom: 44px;
+}
+
+.notes-header h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #001931;
+  margin-bottom: 16px;
+}
+
+.notes-header p {
+  font-size: 16px;
+  color: #627382;
+}
+
+.cards-wrapper {
+  display: flex;
+  gap: 24px;
+}
+
+.note-card {
+  flex: 1;
+  background: white;
+  border-radius: 8px;
+  padding: 24px;
+  text-align: center;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.06);
+}
+
+.card-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px auto;
+}
+
+.red-bg {
+  background: #F95555;
+}
+
+.note-card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #001931;
+  margin-bottom: 16px;
+}
+
+.note-card p {
+  font-size: 16px;
+  color: #627382;
+  line-height: 1.4;
+}
+
+
+/* Second brain section */
+.brain-section {
+  padding: 120px 0;
+  background: white;
+}
+
+.brain-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.brain-img img {
+  border-radius: 12px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.brain-content {
+  flex: 1;
+}
+
+.section-tag {
+  font-size: 16px;
+  font-weight: 500;
+  color: #30B868;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.brain-content h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #001931;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.brain-content p {
+  font-size: 16px;
+  color: #627382;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.check-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.check-list li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #001931;
+}
+
+
+/* CTA section */
+.cta-section {
+  padding: 2px 0 120px 0;
+  background: white;
+}
+
+.cta-box {
+  background: #F7F6F2;
+  border-radius: 12px;
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.cta-box h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #001931;
+  margin-bottom: 16px;
+}
+
+.cta-box p {
+  font-size: 16px;
+  color: #627382;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+.cta-btn {
+  background: #30B868;
+  color: white;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.cta-btn:hover {
+  background: #28a05a;
+}
+
+.cta-note {
+  display: block;
+  margin-top: 16px;
+  font-size: 16px;
+  color: #627382;
+}
+
+
+/* Footer */
+footer {
+  background: #001931;
+  padding: 120px 0 30px 0;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 80px;
+}
+
+.social-links h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.icons {
+  display: flex;
+  gap: 16px;
+}
+
+.icons a {
+  display: block;
+}
+
+.footer-line {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 30px;
+}
+
+.copyright {
+  text-align: center;
+  color: #FAFAFA;
+  font-size: 16px;
 }

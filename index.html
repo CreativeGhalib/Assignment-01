@@ -1,55 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-    rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body class="inter-font">
-  <!-- Navbar -->
-  <header >
-    <nav class="container">
-      <div class="logo">
-        <img src="./assets/logo-navbar.png" alt="company logo KV " width="139px" height="32px">
-      </div>
-      <ul class="link-parent">
-        <li><a href="#features">Features</a></li>
-        <li><a href="#how-it-works">How it Works</a></li>
-        <li><a href="#why-different">Why It's Different</a></li>
-      </ul>
-      <button class="my-btn">Get Early Access</button>
-    </nav>
-  </header>
 
-   <main>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body class="inter-font">
+    <!-- Navbar -->
+    <header>
+      <nav class="container">
+        <div class="logo">
+          <img src="./assets/logo-navbar.png" alt="company logo KV " width="139px" height="32px">
+        </div>
+        <ul class="link-parent">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#how-it-works">How it Works</a></li>
+          <li><a href="#why-different">Why It's Different</a></li>
+        </ul>
+        <button class="my-btn">Get Early Access</button>
+      </nav>
+    </header>
+
+    <main>
       <!-- Banner section -->
-       <section class="hero-parent">
+      <section class="hero-parent">
         <div class="pill">
           <span class="pill-dot" aria-hidden="true"></span>
           <span class="pill-text">Early Access Now Open</span>
         </div>
 
         <h1>Structured Thinking,<br>
-          <span class="hero-color">Not Just Note-Taking.</span></h1>
-          <p>A private space to store notes, links, and learning summaries — designed to <br> help you think clearly, connect ideas,
+          <span class="hero-color">Not Just Note-Taking.</span>
+        </h1>
+        <p>A private space to store notes, links, and learning summaries — designed to <br> help you think clearly,
+          connect ideas,
           and turn learning into long-term knowledge.
-          </p>
-          <div class="buttons">
-            <button>Start Building Your Vault</button>
-            <button>See How It Works</button>
+        </p>
+        <div class="buttons">
+          <button>Start Building Your Vault</button>
+          <button>See How It Works</button>
+        </div>
+
+      </section>
+
+      <!-- Notes section -->
+      <section class="notes-section" id="features">
+        <div class="container">
+          <div class="notes-header">
+            <h2>Notes Don't Fail, Structure Does.</h2>
+            <p>You're not bad at learning. Your tools just weren't built for how knowledge actually works.</p>
           </div>
+          <div class="cards-wrapper">
+            <div class="note-card">
+              <div class="card-icon red-bg">
+                <img src="./assets/Vector.png" alt="stack icon" width="27" height="29">
+              </div>
+              <h3>Scattered Notes</h3>
+              <p>Your ideas live in 10 different apps, none of them connected.</p>
+            </div>
+            <div class="note-card">
+              <div class="card-icon red-bg">
+                <img src="./assets/Bookmarks.png" alt="bookmark icon" width="21" height="27">
+              </div>
+              <h3>Bookmark Overload</h3>
+              <p>Hundreds of saved links you'll never revisit or remember.</p>
+            </div>
+            <div class="note-card">
+              <div class="card-icon red-bg">
+                <img src="./assets/Brain.png" alt="brain icon" width="31" height="26">
+              </div>
+              <h3>No Idea Connections</h3>
+              <p>Insights stay isolated, never building into bigger understanding.</p>
+            </div>
+            <div class="note-card">
+              <div class="card-icon red-bg">
+                <img src="./assets/Info.png" alt="info icon" width="27" height="27">
+              </div>
+              <h3>Forgetting What You Learned</h3>
+              <p>Knowledge fades because there's no system to retain it.</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-       </section>
+      <!-- Second brain section -->
+      <section class="brain-section" id="how-it-works">
+        <div class="container brain-wrapper">
+          <div class="brain-img">
+            <img src="./assets/knowledge.png" alt="knowledge vault illustration" width="600" height="600">
+          </div>
+          <div class="brain-content">
+            <span class="section-tag">The Solution</span>
+            <h2>Your Second Brain,<br>Structured By Design.</h2>
+            <p>Personal Knowledge Vault isn't another note-taking app. It's a thinking environment where every note,
+              link, and summary becomes part of an interconnected web of understanding.</p>
+            <ul class="check-list">
+              <li>
+                <img src="./assets/CheckCircle.png" alt="check" width="20" height="20">
+                Capture ideas with structure built-in from day one
+              </li>
+              <li>
+                <img src="./assets/CheckCircle.png" alt="check" width="20" height="20">
+                Connect related concepts automatically as you write
+              </li>
+              <li>
+                <img src="./assets/CheckCircle.png" alt="check" width="20" height="20">
+                Build lasting knowledge through reflection prompts
+              </li>
+              <li>
+                <img src="./assets/CheckCircle.png" alt="check" width="20" height="20">
+                Find anything instantly with semantic search
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Early access section -->
+      <section class="cta-section" id="why-different">
+        <div class="container">
+          <div class="cta-box">
+            <h2>Ready To Think More Clearly?</h2>
+            <p>Join thousands of learners who are building their personal knowledge vaults.<br>Start free, no credit
+              card required.</p>
+            <button class="cta-btn">Get Early Access <img src="./assets/ArrowRight.png" alt="arrow" width="20"
+                height="20"></button>
+            <span class="cta-note">Free during early access • No credit card needed</span>
+          </div>
+        </div>
+      </section>
 
 
-   </main>
+    </main>
 
+    <!-- Footer -->
+    <footer>
+      <div class="container footer-wrapper">
+        <div class="footer-logo">
+          <img src="./assets/logo-footer.png" alt="KV logo" width="139" height="60">
+        </div>
+        <div class="social-links">
+          <h4>Social Links</h4>
+          <div class="icons">
+            <a href="#"><img src="https://img.icons8.com/ios-filled/20/ffffff/twitter.png" alt="twitter"></a>
+            <a href="#"><img src="https://img.icons8.com/ios-filled/20/ffffff/linkedin.png" alt="linkedin"></a>
+            <a href="#"><img src="https://img.icons8.com/ios-filled/20/ffffff/facebook-new.png" alt="facebook"></a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <hr class="footer-line">
+        <p class="copyright">© 2026 Personal Knowledge Vault. All rights reserved by MesbahGhalib.</p>
 
-</body>
+      </div>
+    </footer>
+
+  </body>
+
 </html>
