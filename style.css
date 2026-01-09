@@ -3,22 +3,34 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* Common style */
-.container{
-  max-width: 1360px
-}
 /* Font  */
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
-nav{
-  background-color: rgba(255, 255, 255, 1);
-  display: flex;
-  justify-content: space-between;
-  width: 85%;
+/* My Common class */
+.container{
   max-width: 1360px;
   margin: 0 auto;
+  width: 85%;
+}
+.my-btn{
+  border-radius: 4px;
+  padding: 12px 16px 12px 16px;
+  font-weight: 600;
+  background-color: #30B868;
+  color: white;
+  font-family: "Inter", sans-serif;
+  border: none;
+}
+
+
+/* Nav section  */
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+  align-items: center;
 
 }
 
@@ -29,8 +41,23 @@ nav{
 }
 .link-parent a{
   text-decoration: none;
+  color: black
 
 }
 header{
-  padding: 16px;
+  background-color: rgba(255, 255, 255, 1);
+
 }
+/* hero section styling */
+.hero-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url(./assets/hero-bg.png);
+    height:650px ;
+  }
+  .hero-color{
+    color: rgba(48, 184, 104, 1);
+  }
